@@ -1,0 +1,318 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #edf2f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+
+  .logo-container {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    margin-bottom: 44px;
+    /* margin-left: 83px;
+    margin-top: 40px; */
+}
+
+.ut-image {
+
+
+    /* position: absolute; */
+    /* top: 167px; */
+    /* margin-right: 10px; */
+    width: 65px; /* Установите нужный размер для логотипа */
+
+}
+
+.wee {
+  margin-left: 5px;
+    font-size: 26px; /* Размер шрифта для заголовка */
+    /* margin: 0; Убираем отступы */
+    /* margin-left: 77px; */
+}
+  /* .input-box {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 9px;
+    
+    border-radius: 10px;
+    border-color: red;
+  } */
+  
+.input-field {
+  display: flex;
+  flex-direction: column;
+  position: relative; 
+  padding: 0 10px;
+  border-radius: 2px solid red;   
+}
+  .login-page {
+
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    
+  }
+  
+ 
+.input-field2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 0 10px;
+
+}
+
+.inputt {
+    /* height: 45px;
+    width: 100%; */
+    background: transparent;
+    border: none;
+    border-left-style: solid;
+    outline: none;
+    margin-bottom: 0px;
+   
+}
+
+.input-field label {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    pointer-events: none;
+    transition: .3s;
+    /* border: none; */
+    color: #999; /* Цвет метки по умолчанию */
+}
+
+.input-field2 label {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  pointer-events: none;
+  transition: .3s;
+  color: #999; /* Цвет метки по умолчанию */
+}
+.input:focus ~ label,
+.input:valid ~ label {
+    top: -10px;
+    font-size: 13px;
+    color: #2D6734; /* Цвет метки при фокусе или валидности */
+}
+
+
+
+  .login-container {
+    text-align: center;
+  }
+  
+  .login-container h1 {
+    /* font-size: 1.5rem; */
+    color: #3a5a40;
+    /* margin-bottom: 66px; */
+  }
+  
+  .login-container h2 {
+    font-size: 1.25rem;
+    color: #3a5a40;
+    margin-bottom: 8px;
+  }
+  
+  .login-container p {
+    color: #6c757d;
+    margin-bottom: 20px;
+    font-size: 10px;
+  }
+  
+  .account-type {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .account-type button {
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    color: #495057;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .account-type button.active {
+    background-color: #ced4da;
+    color: #495057;
+  }
+  
+  .account-type button:hover {
+    background-color: #e2e6ea;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  form label {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 0.875rem;
+    color: #495057;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px;
+    /* margin-bottom: 20px; */
+ 
+  }
+  
+  form button {
+    width: 100%;
+    background-color: #3a5a40;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    margin-top: 9px;
+  }
+  
+  form button:hover {
+    background-color: #2e4732;
+  }
+  
+  .lorem-text {
+    color: #6c757d;
+    margin-top: 56px;
+    font-size: 0.75rem;
+  }
+  
+  .error-message {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffeeba;
+    color: #856404;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 0.875rem;
+  }
+  
+  .error-icon {
+    margin-right: 10px;
+  }
+  
+  .error-text {
+    flex-grow: 1;
+  }
+  
+  .error-close {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  .login-form {
+    width: 300px;
+    margin: 22px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .input-container {
+    margin-bottom: 2px;
+  }
+  
+  .input-container label {
+    display: flex;
+    align-items: center;
+    border: 3px solid #E0E8E1;
+    border-radius: 12px;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .input-container input {
+    border: none;
+    outline: none;
+    flex-grow: 1;
+    padding-left: 4px;
+    font-size: 20px;
+    border-left-style: inset;
+    color: #2E6734;
+  }
+
+  .col{
+    color: #2E6734;
+  }
+
+
+
+  @media (max-width: 320px ){
+    .login-page {
+      width: 292px;
+    }
+    .logo-container {
+      max-width: 209px;
+    }
+    .wee {
+      font-size: 19px;
+    }
+    ut-image {
+      width: 51px;
+   }
+   .login-container h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+   }
+   .login-container p {
+    margin-bottom: 12px;
+    font-size: 7px;
+   }
+   .segment label {
+    padding: 4px;
+    font-size: 15px;
+   }
+   .controls::before {
+    width: 92px;
+   }
+ 
+   .controls {
+    padding: 0px ; 
+    width: 221px;
+   }
+  } 
+
+
+  
+
+  @media (max-width: 480px ){
+  
+    .login-container p {
+      margin-bottom: 12px;
+      font-size: 7px;
+     }
+  } 
+
+  @media (max-width: 1024px ){
+   
+  } 
+
+
+
+  

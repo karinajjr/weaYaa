@@ -1,0 +1,41 @@
+/* .input-box {
+    display: flex;
+    flex-direction: column;
+   
+    max-width: 400px; 
+    margin: 0 auto;
+    padding: 9px;
+    border-radius: 10px;
+    border-color: red; 
+
+} */
+
+/* .input-field {
+    position: relative;
+    margin-bottom: 20px;
+} */
+
+/* .input-field input {
+    width: 100%;
+    padding: 15px 10px;
+    padding-left: 40px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+} */
+
+.input-field label {
+    position: absolute;
+    top: 8px;
+    left: 15px;
+    transform: translateY(-9%);
+    font-size: 14px;
+    color: #888;
+    border: none;
+    background: none;
+    width: 95%;
+}
+
+.input-field label i {
+    margin-right: -10px;
+}
