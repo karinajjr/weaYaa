@@ -9,6 +9,9 @@ import out from './img/out.png'
 import InputBox from './InputBox';
 import ut from './img/Logo-WeaYaa.png'
 import ou from './img/Background.png'
+import { Link } from 'react-router-dom';
+import SidebarComponent from '../components/Sidebar'
+
 
 
 
@@ -114,9 +117,12 @@ const LoginPage = () => {
            
           </label>
         </div>
-        <button type="submit">Continue</button>
+        <Link to="/sidebar">
+        <button>Continue</button>
+        </Link>
       </form>
     </div>
+  
 
         
         

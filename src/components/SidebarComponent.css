@@ -1,0 +1,19 @@
+/* src/components/SidebarComponent.css */
+.sidebar {
+  background-color: rgba(46, 103, 52, 0.05);/* Цвет фона боковой панели */
+  width: 250px !important; 
+  height: 100vh !important; 
+  position: fixed;
+  top: 0 !important;
+  left: 0 !important;
+  /* overflow: auto; Прокрутка, если содержимое выходит за пределы */
+}
+
+.sidebar-menu {
+  padding: 20px; 
+}
+.no-flex .sidebar {
+  display: block; /* или другой стиль, который вам нужен */
+  position: fixed; /* Убедитесь, что Sidebar остается фиксированным */
+ 
+}
